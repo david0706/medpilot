@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { GridLineHorizontal, GridLineVertical } from "./grid-lines";
 // import { SkeletonOne } from "./skeletons/first";
 import { MedicalCardStack } from "./medical-card-stack";
-import { SkeletonTwo } from "./skeletons/second";
+import { DictationDemo } from "./dictation-demo"
 import { SkeletonFour } from "./skeletons/fourth";
 import { SkeletonThree } from "./skeletons/third";
 
@@ -23,7 +23,7 @@ export const Features = () => {
       title: "Dictez votre rapport",
       description:
         "Mode IA ou Recco : dictez à votre rythme avec le niveau d'assistance qui vous convient.",
-      skeleton: <SkeletonTwo />,
+        skeleton: <DictationDemo />,
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
     {

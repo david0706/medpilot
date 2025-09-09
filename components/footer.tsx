@@ -53,8 +53,8 @@ export const Footer = () => {
             <div className="mr-4  md:flex mb-4">
               <Logo />
             </div>
-            <div>Copyright &copy; 2024 Every Labs</div>
-            <div className="mt-2">All rights reserved</div>
+            <div>Copyright &copy; 2025 MedPilot</div>
+            <div className="mt-2">Tous droits réservés</div>
           </div>
           <div className="grid grid-cols-3 gap-10 items-start mt-10 md:mt-0">
             <div className="flex justify-center space-y-4 flex-col mt-4">
@@ -94,7 +94,7 @@ export const Footer = () => {
         </div>
       </div>
       <p className="text-center text-5xl md:text-9xl lg:text-[18rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 dark:from-neutral-950 to-neutral-200 dark:to-neutral-800 inset-x-0">
-        EVERY AI
+        MEDPILOT
       </p>
     </div>
   );
