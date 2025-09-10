@@ -4,18 +4,18 @@ import { MobileNavbar } from "./mobile-navbar";
 import { motion } from "framer-motion";
 
 const navItems = [
-  {
-    title: "Nos Tarifs",
-    link: "/pricing",
-  },
-  {
-    title: "Blog",
-    link: "/blog",
-  },
-  {
-    title: "Contact",
-    link: "/contact",
-  },
+  // {
+  //   title: "Nos Tarifs",
+  //   link: "/pricing",
+  // },
+  // {
+  //   title: "Blog",
+  //   link: "/blog",
+  // },
+  // {
+  //   title: "Contact",
+  //   link: "/contact",
+  // },
 ];
 
 export function NavBar() {
