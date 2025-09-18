@@ -3,7 +3,7 @@ import { DesktopNavbar } from "./desktop-navbar";
 import { MobileNavbar } from "./mobile-navbar";
 import { motion } from "framer-motion";
 
-const navItems = [
+const navItems: { title: string; link: string }[] = [
   // {
   //   title: "Nos Tarifs",
   //   link: "/pricing",
